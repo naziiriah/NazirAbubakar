@@ -1,31 +1,18 @@
 import {
-    FormControl,
-    FormLabel,
-    FormErrorMessage,
-    Input,
     Box,
-    Textarea,
-    Button
+    Text
   } from '@chakra-ui/react'
+  import EmailDisplay from './Email';
 
 const ContactForm = () => {
     
     
     return ( 
-        <Box as="form" width={["10rem", "20rem", "40rem", "50rem"]} margin="auto">
-            <FormControl id='name' my="2rem">
-                <Input type='text' placeholder="Name: " height="3rem" fontSize="23px" width="90%" margin="auto" />
-            </FormControl>
-            <FormControl id='email'>
-                <Input type='email' placeholder="Email: " height="3rem" fontSize="23px" width="90%" margin="auto" />
-            </FormControl>
-            <FormControl id='name' my="2rem">
-                <Textarea name="" id="" cols="30" rows="10" placeholder='Message'></Textarea>
-            </FormControl>
-            <Box as="flex"justifyContent="end" width="100%">
-                <Button color="brown" cursor="pointer" _hover={{bgColor:"brown" ,opacity:"0.8", color:"white"}}>Submit</Button>
-            </Box>
-            
+        <Box as="footer" width="100%" justifyContent="center" height="27rem" borderBottomColor="brown" borderBottomWidth="3px" borderBottomStyle="solid" borderTopColor="brown" borderTopWidth="3px" borderTopStyle="solid">
+            <Text as="h1" textAlign="center" fontSize="39px"my="1rem" fontWeight="600" letterSpacing="1px">Interested in doing a project with me ?</Text>
+                <Box width="100%" display="flex" justifyContent="center"> <EmailDisplay/></Box>
+                
+            <Text as="h3" textAlign="center" my="2rem" fontWeight="600" fontSize="25px">Nazir, 2021.</Text>
         </Box>
      );
 }
