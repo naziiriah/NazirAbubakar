@@ -26,14 +26,12 @@ const EmailDisplay = () => {
               <ModalContent>
                 
                 <ModalCloseButton />
-                <ModalBody pb={6}>
-                  
+                <ModalBody pb={6} margin="auto">
+                  <Box fontStyle="italic">nazirabubakar7@gmail.com</Box>
                 </ModalBody>
       
                 <ModalFooter>
-                  <Button colorScheme='blue' mr={3}>
-                    Send
-                  </Button>
+                  
                 </ModalFooter>
               </ModalContent>
             </Modal>
