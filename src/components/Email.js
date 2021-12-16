@@ -19,7 +19,7 @@ const EmailDisplay = () => {
       
         return (
           <>
-            <Button  borderStyle="solid" borderWidth="3px" bgColor="#fdfff5" borderColor="brown" my="5rem" onClick={onOpen} height="5rem" width={["10rem", "14rem", "17rem", "17rem"]} cursor="pointer" _hover={{width:"18rem"  }}>Email Me</Button>
+            <Button  borderStyle="solid" margin="auto" borderWidth="3px" bgColor="#fdfff5" borderColor="brown" my="5rem" onClick={onOpen} height="5rem" width={["10rem", "14rem", "17rem", "17rem"]} cursor="pointer" _hover={{width:"18rem"  }}>Email Me</Button>
       
             <Modal closeOnOverlayClick={false} isOpen={isOpen} onClose={onClose}>
               <ModalOverlay />
