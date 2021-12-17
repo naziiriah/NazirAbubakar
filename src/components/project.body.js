@@ -7,6 +7,9 @@ import ContactForm from "./contactForm";
 import { FaCartPlus, FaCode, FaEye, FaListUl, FaMapPin} from 'react-icons/fa'
 import { IoIosChatboxes } from "react-icons/io"
 import { RiMapPinFill } from "react-icons/ri"
+import { Link } from '@chakra-ui/react'
+
+
 
 const Project = () => {
     return ( 
@@ -17,7 +20,7 @@ const Project = () => {
             Recent Projects: Samples of some of my work from the past year.
             </Text>
 
-            <Box as="article" width={[ "90%", "80%","80%","60%"]} margin="auto" mt="10rem" height="120rem">
+            <Box as="article" width={[ "90%", "80%","80%","60%"]} margin="auto" mt="10rem" height="130rem">
                 <Box as="section">
                     <Box  width="50%">
                     <Text as="h3" my=".4rem" fontSize="23px" width="100%">Audio Ecommerce Store</Text>
@@ -29,9 +32,12 @@ const Project = () => {
                     <Box width="100%" display="flex" flexDirection={["column", "column", "row", "row"]} justifyContent="space-between">
                     
                     <Box width="100%" display="flex" flexDirection={["column", "column", "row", "row"]} justifyContent="space-between">
-                        <Box width="1%"> <Box > <Icon as={ FaCode } marginTop="1rem"  fontSize="25px" color="brown"/> </Box></Box>
+                        <Box width="1%"> 
+                        <Box > <Icon as={ FaCode } marginTop="1rem"  fontSize="25px" color="brown"/> </Box></Box>
                         <Box width="1%" justifyContent="end">
+                            <Link href="https://github.com/naziiriah/Audiophile-e-commerce-webstore">
                             <Box><Icon as={ FaEye } marginTop="1rem"  fontSize="25px" color="brown"/></Box>
+                            </Link>
                             
                         </Box>
                     </Box>
@@ -48,7 +54,10 @@ const Project = () => {
                     <Box width="10%" marginLeft="45%"  ><Icon as={ IoIosChatboxes } marginTop="5rem"  fontSize="53px" color="brown"/></Box>
                     </Box>
                     <Box width="100%" display="flex" flexDirection={["column", "column", "row", "row"]} justifyContent="space-between">
+                        <Link href="https://github.com/naziiriah/products-feedback-app">
                         <Box width="1%"> <Box > <Icon as={ FaCode } marginTop="1rem"  fontSize="25px" color="brown"/> </Box></Box>
+                        </Link>
+                        
                         <Box width="1%" justifyContent="end">
                             <Box><Icon as={ FaEye } marginTop="1rem"  fontSize="25px" color="brown"/></Box>
                             
@@ -66,11 +75,15 @@ const Project = () => {
                     <Box width="10%" marginLeft="45%"  ><Icon as={ RiMapPinFill } marginTop="5rem"  fontSize="53px" color="brown"/></Box>
                     </Box>
                     <Box width="100%" display="flex" flexDirection={["column", "column", "row", "row"]} justifyContent="space-between">
+                        <Link href="">
                         <Box width="1%"> <Box > <Icon as={ FaCode } marginTop="1rem"  fontSize="25px" color="brown"/> </Box></Box>
-                        <Box width="1%" justifyContent="end">
+                        </Link>
+                        <Link href="">
+                            <Box width="1%" justifyContent="end">
                             <Box><Icon as={ FaEye } marginTop="1rem"  fontSize="25px" color="brown"/></Box>
-                            
                         </Box>
+                        </Link>
+                        
                     </Box>
                 </Box>
 
@@ -85,11 +98,14 @@ const Project = () => {
                     <Box width="100%" display="flex" flexDirection={["column", "column", "row", "row"]} justifyContent="space-between">
                         
                     <Box width="100%" display="flex" flexDirection={["column", "column", "row", "row"]} justifyContent="space-between">
+                        <Link href="https://github.com/naziiriah/static-listing-website">
                         <Box width="1%"> <Box > <Icon as={ FaCode } marginTop="1rem"  fontSize="25px" color="brown"/> </Box></Box>
-                        <Box width="1%" justifyContent="end">
+                        </Link>
+                        <Link href="https://static-listing-website-i07f6n7eo-naziiriah.vercel.app/">
+                            <Box width="1%" justifyContent="end">
                             <Box><Icon as={ FaEye } marginTop="1rem"  fontSize="25px" color="brown"/></Box>
-                            
-                        </Box>
+                        </Box></Link>
+                        
                     </Box>
                     </Box>
                     
