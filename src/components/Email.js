@@ -2,15 +2,18 @@ import {
     Modal,
     ModalOverlay,
     ModalContent,
-    
     ModalFooter,
     ModalBody,
     ModalCloseButton,
-    
     Button,
     useDisclosure,
     Box
-
+  } from '@chakra-ui/react'
+  import {
+    FormControl,
+    FormLabel,
+    Input,
+    Textarea
   } from '@chakra-ui/react'
   
 const EmailDisplay = () => {
@@ -27,7 +30,21 @@ const EmailDisplay = () => {
                 
                 <ModalCloseButton />
                 <ModalBody pb={6} margin="auto">
-                  <Box fontStyle="italic">nazirabubakar7@gmail.com</Box>
+                <FormControl id='email'>
+                    <FormLabel>Email address</FormLabel>
+                    <Input type='email' />
+                    </FormControl>
+                    <FormControl id='email'>
+                    <FormLabel>Name</FormLabel>
+                    <Input type='text' />
+                    </FormControl>
+                    <FormControl id='email'>
+                    <FormLabel>Message</FormLabel>
+                   <Textarea placeholder='hello!'>
+
+                   </Textarea>
+                    </FormControl>
+                    
                 </ModalBody>
       
                 <ModalFooter>
