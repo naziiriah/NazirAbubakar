@@ -32,10 +32,13 @@ const Project = () => {
                     <Box width="100%" display="flex" flexDirection={["column", "column", "row", "row"]} justifyContent="space-between">
                     
                     <Box width="100%" display="flex" flexDirection={["column", "column", "row", "row"]} justifyContent="space-between">
-                        <Box width="1%"> 
-                        <Box > <Icon as={ FaCode } marginTop="1rem"  fontSize="25px" color="brown"/> </Box></Box>
+                        <Box width="1%">
+                        <Link href="https://github.com/naziiriah/Audiophile-e-commerce-webstore"> 
+                        <Box > <Icon as={ FaCode } marginTop="1rem"  fontSize="25px" color="brown"/> </Box>
+                        </Link>
+                        </Box>
                         <Box width="1%" justifyContent="end">
-                            <Link href="https://github.com/naziiriah/Audiophile-e-commerce-webstore">
+                            <Link href="https://audiophile-e-commerce-webstore.vercel.app">
                             <Box><Icon as={ FaEye } marginTop="1rem"  fontSize="25px" color="brown"/></Box>
                             </Link>
                             
