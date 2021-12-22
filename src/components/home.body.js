@@ -6,12 +6,12 @@ import ContactForm from "./contactForm";
 const Home = () => {
     
     return ( 
-        <Box as="article"  maxWidth="90rem" width="80%"   height="50rem" margin="auto" marginTop="5rem">
-            <Box as="section" margin="auto">
+        <Box as="article" className="introduction"  maxWidth="90rem" width="80%"   height="50rem" margin="auto" marginTop="5rem">
+            <Box as="section" margin="auto" className="introduction">
                 <Image src={imageOfman} width="10rem" margin="auto" alt="man with desktop" borderRadius="50%"  cursor="pointer" _hover={{ borderColor:"brown" ,borderStyle:"solid", borderWidth:"3px"}}></Image>
             </Box>
             
-            <Box as="section">
+            <Box as="section" className="introduction">
                 <Box as="h1" fontSize="33px">
                     Hi, I'm Nazir.
                 </Box>

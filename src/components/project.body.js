@@ -13,7 +13,7 @@ import { Link } from '@chakra-ui/react'
 
 const Project = () => {
     return ( 
-        <Box width="100%" height="100rem">
+        <Box width="100%" height="100rem" className="introduction">
             <Text as="h2" width={[ "90%", "80%","80%","60%"]} 
             my="1rem"
             height="10rem" fontSize="33px" py="4rem" alignSelf="center" margin="auto" fontWeight="600" >
