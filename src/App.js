@@ -7,6 +7,8 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
+
 
 
 function App() {
@@ -14,11 +16,12 @@ function App() {
     <BrowserRouter>
     <Container className="App" width={["100%", "100%", "100%", "100%"]}  bgColor="#fdfff5" marginTop="-1rem" height="150rem" maxWidth="1440">
     <Header/>
+    <ScrollToTop>
     <Routes>
         <Route path ="/" element={<Home/>}/>
         <Route path="/projects" element= {<Project/>}/>
     </Routes>
-    
+    </ScrollToTop>
       </Container>
     </BrowserRouter>
       

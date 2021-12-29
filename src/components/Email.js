@@ -48,7 +48,7 @@ const EmailDisplay = () => {
                 </ModalBody>
       
                 <ModalFooter>
-                  
+                  <Button fontWeight={"600"} textTransform={"capitalize"}>Submit</Button>
                 </ModalFooter>
               </ModalContent>
             </Modal>
