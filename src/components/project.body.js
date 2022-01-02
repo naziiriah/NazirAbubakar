@@ -62,8 +62,9 @@ const Project = () => {
                         </Link>
                         
                         <Box width="1%" justifyContent="end">
+                            <Link href = "https://product-feedback-app-one.vercel.app/">
                             <Box><Icon as={ FaEye } marginTop="1rem"  fontSize="25px" color="brown"/></Box>
-                            
+                            </Link>
                         </Box>
 
                     </Box>
