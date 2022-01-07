@@ -29,17 +29,17 @@ const Project = () => {
                     <Box width="100%" height="15rem" bgColor="lightgrey">
                          <Box width="10%" marginLeft="45%"  ><Icon as={ FaCartPlus } marginTop="5rem"  fontSize="53px" color="brown"/></Box>
                     </Box>
-                    <Box width="100%" display="flex" flexDirection={["column", "column", "row", "row"]} justifyContent="space-between">
+                    <Box width="100%" display="flex" mt="1rem" flexDirection={["column", "column", "row", "row"]} justifyContent="space-between">
                     
-                    <Box width="100%" display="flex" flexDirection={["column", "column", "row", "row"]} justifyContent="space-between">
-                        <Box width="1%">
+                    <Box width="100%" display="flex" flexDirection={[ "row"]} justifyContent="space-between">
+                        <Box width="10rem" height ="4rem" borderColor={"brown"} borderWidth={"3px"} borderStyle={"solid"} borderRadius={"5px"}>
                         <Link href="https://github.com/naziiriah/Audiophile-e-commerce-webstore"> 
-                        <Box > <Icon as={ FaCode } marginTop="1rem"  fontSize="25px" color="brown"/> </Box>
+                        <Box width="100%" textAlign={"center"}pt="1rem" textColor={"brown"} textTransform={"uppercase"}> View Code </Box>
                         </Link>
                         </Box>
-                        <Box width="1%" justifyContent="end">
+                        <Box  width="10rem" height ="4rem" borderColor={"brown"} borderWidth={"3px"} borderStyle={"solid"} borderRadius={"5px"}>
                             <Link href="https://audiophile-e-commerce-webstore.vercel.app">
-                            <Box><Icon as={ FaEye } marginTop="1rem"  fontSize="25px" color="brown"/></Box>
+                            <Box  width="100%" textAlign={"center"}pt="1rem" textColor={"brown"} textTransform={"uppercase"}> live site</Box>
                             </Link>
                             
                         </Box>
@@ -49,21 +49,24 @@ const Project = () => {
                 </Box>
 
                 <Box as="section" mt="8rem" height="30rem">
-                    <Box width="50%">
+                    <Box width="80%">
                         <Text as="h3" my=".4rem" fontSize="23px" width="100%">Product Feedback App</Text>
                         <Text as="h3" color="brown" fontStyle="italic" width="100%" fontSize="20px">Frontend / Customer / Unit Testing</Text>
                         </Box>
                     <Box width="100%" height="15rem" bgColor="lightgrey">
                     <Box width="10%" marginLeft="45%"  ><Icon as={ IoIosChatboxes } marginTop="5rem"  fontSize="53px" color="brown"/></Box>
                     </Box>
-                    <Box width="100%" display="flex" flexDirection={["column", "column", "row", "row"]} justifyContent="space-between">
+
+                    <Box   width="100%" display="flex" mt="1rem" flexDirection={[ "row"]} justifyContent="space-between">
                         <Link href="https://github.com/naziiriah/products-feedback-app">
-                        <Box width="1%"> <Box > <Icon as={ FaCode } marginTop="1rem"  fontSize="25px" color="brown"/> </Box></Box>
+                        <Box width="10rem" height ="4rem" borderColor={"brown"} borderWidth={"3px"} borderStyle={"solid"} borderRadius={"5px"}>
+                             <Box  width="100%" textAlign={"center"}pt="1rem" textColor={"brown"} textTransform={"uppercase"} > view code </Box>
+                             </Box>
                         </Link>
                         
-                        <Box width="1%" justifyContent="end">
+                        <Box  width="10rem" height ="4rem" borderColor={"brown"} borderWidth={"3px"} borderStyle={"solid"} borderRadius={"5px"}>
                             <Link href = "https://product-feedback-app-one.vercel.app/">
-                            <Box><Icon as={ FaEye } marginTop="1rem"  fontSize="25px" color="brown"/></Box>
+                            <Box width="100%" textAlign={"center"}pt="1rem" textColor={"brown"} textTransform={"uppercase"}>live site</Box>
                             </Link>
                         </Box>
 
@@ -78,13 +81,14 @@ const Project = () => {
                     <Box width="100%" height="15rem" bgColor="lightgrey">
                     <Box width="10%" marginLeft="45%"  ><Icon as={ RiMapPinFill } marginTop="5rem"  fontSize="53px" color="brown"/></Box>
                     </Box>
-                    <Box width="100%" display="flex" flexDirection={["column", "column", "row", "row"]} justifyContent="space-between">
+                    <Box width="100%" display="flex" mt="1rem" flexDirection={[ "row"]} justifyContent="space-between">
                         <Link href="">
-                        <Box width="1%"> <Box > <Icon as={ FaCode } marginTop="1rem"  fontSize="25px" color="brown"/> </Box></Box>
+                        <Box width="10rem" height ="4rem" borderColor={"brown"} borderWidth={"3px"} borderStyle={"solid"} borderRadius={"5px"}> 
+                            <Box width="100%" textAlign={"center"}pt="1rem" textColor={"brown"} textTransform={"uppercase"}> view code </Box></Box>
                         </Link>
                         <Link href="">
-                            <Box width="1%" justifyContent="end">
-                            <Box><Icon as={ FaEye } marginTop="1rem"  fontSize="25px" color="brown"/></Box>
+                            <Box width="10rem" height ="4rem" borderColor={"brown"} borderWidth={"3px"} borderStyle={"solid"} borderRadius={"5px"}>
+                            <Box width="100%" textAlign={"center"}pt="1rem" textColor={"brown"} textTransform={"uppercase"}>live site</Box>
                         </Box>
                         </Link>
                         
@@ -99,15 +103,17 @@ const Project = () => {
                     <Box width="100%" height="15rem" bgColor="lightgrey">
                     <Box width="10%" marginLeft="45%"  ><Icon as={ FaListUl } marginTop="5rem"  fontSize="53px" color="brown"/></Box>
                     </Box>
-                    <Box width="100%" display="flex" flexDirection={["column", "column", "row", "row"]} justifyContent="space-between">
+                    <Box width="100%" display="flex" flexDirection={["column", "column", "row", "row"]} mt="1rem" justifyContent="space-between">
                         
-                    <Box width="100%" display="flex" flexDirection={["column", "column", "row", "row"]} justifyContent="space-between">
+                    <Box width="100%" display="flex" flexDirection={[ "row"]} justifyContent="space-between">
                         <Link href="https://github.com/naziiriah/static-listing-website">
-                        <Box width="1%"> <Box > <Icon as={ FaCode } marginTop="1rem"  fontSize="25px" color="brown"/> </Box></Box>
+                        <Box width="10rem" height ="4rem" borderColor={"brown"} borderWidth={"3px"} borderStyle={"solid"} borderRadius={"5px"}> 
+                            <Box width="100%" textAlign={"center"}pt="1rem" textColor={"brown"} textTransform={"uppercase"} > view code </Box>
+                            </Box>
                         </Link>
                         <Link href="https://static-listing-website-i07f6n7eo-naziiriah.vercel.app/">
-                            <Box width="1%" justifyContent="end">
-                            <Box><Icon as={ FaEye } marginTop="1rem"  fontSize="25px" color="brown"/></Box>
+                            <Box width="10rem" height ="4rem" borderColor={"brown"} borderWidth={"3px"} borderStyle={"solid"} borderRadius={"5px"}>
+                            <Box width="100%" textAlign={"center"}pt="1rem" textColor={"brown"} textTransform={"uppercase"}>live site</Box>
                         </Box></Link>
                         
                     </Box>

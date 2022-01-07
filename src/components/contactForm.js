@@ -8,7 +8,7 @@ const ContactForm = () => {
     
     
     return ( 
-        <Box as="footer" width="100%" justifyContent="center" height="27rem" borderBottomColor="brown" borderBottomWidth="3px" borderBottomStyle="solid" borderTopColor="brown" borderTopWidth="3px" borderTopStyle="solid">
+        <Box as="footer" width="100%" justifyContent="center" height="27rem"  borderBottomWidth="3px" borderBottomStyle="solid" borderTopColor="brown" borderTopWidth="3px" borderTopStyle="solid">
             <Text as="h1" textAlign="center" fontSize="39px"my="1rem" fontWeight="600" letterSpacing="1px">Interested in doing a project with me ?</Text>
                 <Box width="17rem" margin="auto"> <EmailDisplay/></Box>
                 
